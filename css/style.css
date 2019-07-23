@@ -1,0 +1,198 @@
+@charset "UTF-8";
+
+html, body, h1, h2, h3, ul, li, a, p,
+article, aside, footer, header, main, nav, section{
+padding: 0;
+margin: 0;
+font-family: 'Lato',sans-serif;
+/*font-family: 'Merriweather',sans-serif;*/
+}
+
+
+
+/* -- Header Section -- */
+
+#main-header{
+  background:rgb(255, 255, 255);
+  color: rgb(231, 55, 55);
+  padding: 20px 20px;
+
+}
+
+.container{
+  margin:auto;
+  width:100%;
+  overflow:hidden;
+}
+
+/* -- Flexbox-- */
+
+  /* -- Main Section --*/
+
+  #mains{
+    padding:40px 00px;
+    width:100%;
+  }
+
+
+  #mains h1{
+    text-align: center;
+    font-family:'Merriweather',sans-serif;
+    font-size:30px;
+  }
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  justify-content: space-around;
+  
+}
+
+.icons{
+  color:  rgb(202, 134, 71);
+}
+.flex-container > div {
+  
+  
+  width: 30%;
+ margin-top:50px;
+  text-align: center;
+  line-height: 55px;
+  font-size: 30px;
+ 
+}
+
+#mains .box1 {
+  padding:20px 5px;
+}
+
+#mains .box1 h1{
+  color:  rgb(0, 0, 0);
+  font-size:18px;
+  text-align: center;
+  font-family: 'Rubik',sans-serif;
+  font-weight: 500;
+}
+
+
+
+#mains .box1 p{
+  font-family: 'Merriweather',sans-serif;
+  font-size:13px;
+}
+
+/* -- Navigation Section -- */
+
+#navbar{
+	background-color: rgb(216, 125, 40);
+  color: #fff;
+  padding: 10px 20px;
+
+
+}
+
+#navbar ul{ 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  color: white;
+}
+
+
+#navbar ul li{
+  padding:10px 40px;
+}
+
+
+#navbar ul li a{
+  text-decoration: none;
+  color:white;
+}
+
+#navbar ul li a:hover{
+  color:rgb(80, 80, 80);
+}
+
+#furtxt{
+ color: rgb(206, 113, 26);
+}
+
+
+#main-header #branding{
+  float: left;
+}
+
+#main-header #log{
+  float:right;
+}
+
+
+#main-header #log{
+  float:right;
+  margin-top:5px;
+}
+
+#main-header #log a{
+  padding-top:25px;
+  text-decoration: none;
+  color:black;
+}
+
+
+#main-header #log a:hover{
+  color: rgb(231, 55, 55);
+}
+
+#main-header #log #slash{
+  color:black;
+}
+/* -- Showcase Section --*/
+
+#showcase{
+  background-image: url('../images/petbg1.jpg');
+  background-position: center center;
+  background-size: cover;
+  min-height:400px;
+  text-align: center;
+  opacity: 0.8;
+  
+  }
+
+  #showcase h1{
+    color: #fff;
+    font-size: 50px;
+    line-height: 1.4em;
+    padding-top: 140px;
+    font-family: 'Merriweather',sans-serif;
+  }
+
+  #showcase p{
+    color: #fff;
+    font-size: 16px;
+    line-height: 1.6em;
+    font-family: 'Merriweather',sans-serif;
+  }
+  
+
+  
+
+    /* -- Footer Section --*/
+
+    footer{
+
+      background: black;
+      height:100px;
+      margin:0;
+      padding:0;
+    }
+
+    
+    footer p{
+      text-align: center;
+      color:white;
+      padding:40px 50px;
+      margin-top:20px;
+      font-size:13px;
+      font-family: 'Lato', sans-serif;
+    }
